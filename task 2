@@ -1,0 +1,9 @@
+
+#Using the Math module for calculations 
+import math
+Number=int(input("Enter a number:")) 
+SRoot=math.sqrt(Number)
+Logarithm=math.log(Number)
+Radian=math.sin(Number) print(f"Square root of {Number} is {SRoot}")
+print(F"Logarithm of {Number} is {Logarithm}")
+print(f"Sin of {Number} is {Radian}")
